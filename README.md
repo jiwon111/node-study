@@ -1,2 +1,2 @@
 # node-study
-study nods.js
+study node.js
