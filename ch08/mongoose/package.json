@@ -2,19 +2,10 @@
   "name": "learn-mongoose",
   "version": "0.0.1",
   "description": "몽구스를 배우자",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"nodemon app"
   },
   "author": "JiwonKim",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.13.3",
-    "morgan": "^1.10.0",
-    "nunjucks": "^3.2.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+  "license": "MIT"
 }
