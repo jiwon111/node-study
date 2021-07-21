@@ -54,4 +54,13 @@ router.get('/logout', isLoggedIn, (req, res) => {
     res.redirect('/');//메인 페이지로 되돌아감
 });
 
+//카카오 로그인 라우터
+router.get('/kakao', passport.authenticate('kakao'));
+
+router.get('/kakao/callback', passport.authenticate('kakao', {
+    failureRedirect:'/',
+}), (req, res) => {
+    res.redirect('/');
+});
+
 module.exports = router;
