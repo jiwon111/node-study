@@ -4,7 +4,8 @@
   "description": "익스프레스를 이용한 SNS 서비스",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "test": "jest"
   },
   "author": "JiwonKim",
   "license": "MIT",
@@ -23,5 +24,8 @@
     "passport-local": "^1.0.0",
     "sequelize": "^6.6.5",
     "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
